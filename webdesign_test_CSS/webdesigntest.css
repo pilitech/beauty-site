@@ -1,0 +1,218 @@
+body {
+  font-family: "Shippori Mincho", serif;
+  width: 1300px;
+  margin: 0 0 0 -150px;
+}
+
+.logo_coachcosme {
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+header {
+  height: 70px;
+  text-align: right;
+  color: #55bbbb;
+  margin: 0 auto;
+}
+
+.firstview {
+  text-align: left;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fv_content {
+  position: absolute;
+  top: 0%;
+}
+.fv_ttl {
+  font-size: 40px;
+  line-height: 80px;
+}
+.fv_ttl_emphasis {
+  font-size: 64px;
+  font-weight: bold;
+  color: #55bbbb;
+}
+.fv_ttl_bold {
+  font-size: 64px;
+  font-weight: bold;
+}
+.fv_price {
+  display: flex;
+  justify-content: flex-start;
+}
+.fv_circle {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  line-height: 90px;
+  text-align: center;
+  background-color: #ff4384;
+  margin: 30px 30px;
+}
+.fv_circle_text {
+  color: white;
+  font-size: 25px;
+}
+.fv_price_text {
+  margin: 30px 0;
+}
+.fv_price_first {
+  color: #55bbbb;
+  font-size: 17px;
+  line-height: 30px;
+}
+.fv_price_second {
+  color: #ff4384;
+  font-size: 30px;
+  line-height: 50px;
+}
+.fv_price_second_bold {
+  font-size: 45px;
+  font-weight: bold;
+}
+.fv_btn {
+  margin: 0 30px;
+  width: 450px;
+  height: 80px;
+  border-radius: 40px;
+  background: #ff4384;
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  text-align: center;
+  border: none;
+  box-shadow: 0px 0px 10px 3px #ff4384;
+}
+
+.check {
+  margin: 0 0 0 100px;
+}
+.ck_ttl {
+  position: relative;
+  width: 1300px;
+  height: 100px;
+  color: white;
+  font-size: 25px;
+  line-height: 100px;
+  text-align: center;
+  background: #55bbbb;
+}
+.ck_ttl:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 50px solid transparent;
+  border-top: 30px solid #55bbbb;
+}
+.ck_ttl_emphasis {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.ck_content {
+  display: flex;
+  justify-content: center;
+  margin: 60px auto 0 auto;
+}
+.ck_list {
+  width: 400px;
+  height: 200px;
+  margin: 30px;
+  padding: 20px 30px 40px 30px;
+  background: white;
+  border: solid 1px #55bbbb;
+  border-radius: 25px;
+}
+.ck_list_item {
+  border-bottom: solid 1px #55bbbb;
+}
+.ck_img {
+  display: inline-block;
+}
+.ck_list_text {
+  display: inline-block;
+  margin: 20px 0 0 0;
+  line-height: 40px;
+  font-size: 25px;
+  color: #55bbbb;
+}
+
+.introduction {
+  width: 1300px;
+  height: 200px;
+  margin: 0 0 30px 100px;
+  padding: 30px 0;
+  color: white;
+  font-size: 25px;
+  line-height: 60px;
+  text-align: center;
+  background: #55bbbb;
+}
+.int_text {
+  display: flex;
+  justify-content: center;
+}
+.int_emphasis {
+  font-size: 40px;
+  font-weight: bold;
+}
+.int_emphasis_color {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff4384;
+}
+
+.point {
+  width: 1000px;
+  margin: 30px 0 30px 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.pt_content {
+  position: relative;
+  width: 300px;
+  height: 180px;
+  margin: 30px 10px;
+  padding: 10px;
+  border: solid 1px #55bbbb;
+}
+
+.pt_ttl {
+  font-family: "Amatic SC", cursive;
+  color: #55bbbb;
+  background-color: white;
+  font-size: 25px;
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  font-weight: bold;
+}
+.pt_text {
+  margin: 20px 0;
+  font-size: 25px;
+  line-height: 40px;
+}
+.pt_text_color {
+  color: #ff4384;
+}
+.pt_text_detail {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+footer {
+  width: 1300px;
+  height: 40px;
+  text-align: center;
+}
